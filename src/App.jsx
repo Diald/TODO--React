@@ -38,6 +38,11 @@ function App() {
           <li key={index}>
             {taskItem}
             <button
+              // here we have to do with arrow functions because when
+              // functions have arguments, its called calling the function
+              // and the function gets called immediately which deletes the
+              // item as soon as it is added, thus we used arrow function in order to
+              // pass the function rather than call the function
               onClick={() => {
                 handleDelete(index);
               }}
