@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://diald.github.io/TODO--React",
+  "homepage": "https://Diald.github.io/TODO--React",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
